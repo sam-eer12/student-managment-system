@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CP project</title>
-    <link rel="icon" href="/static/img.jpg" type="image/x-icon" >
+    <link rel="icon" href="/static/Netaji_Subhas_University_of_Technology.svg.png" type="image/x-icon" >
     <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
@@ -38,7 +38,6 @@
     <div class="footer">
         <h2>Action view:</h2>
         
-        <!-- Flash Messages -->
         {% with messages = get_flashed_messages(with_categories=true) %}
             {% if messages %}
                 <div class="flash-messages">
@@ -49,7 +48,6 @@
             {% endif %}
         {% endwith %}
         
-        <!-- Add Student Form -->
         {% if action == 'add_student' %}
             <div class="action-form">
                 <h3>Add New Student</h3>
@@ -75,7 +73,6 @@
             </div>
         {% endif %}
         
-        <!-- View Students Table -->
         {% if action == 'view_students' %}
             <div class="action-view">
                 <h3>All Students</h3>
@@ -106,7 +103,6 @@
             </div>
         {% endif %}
         
-        <!-- Update Student Search Form -->
         {% if action == 'update_search' %}
             <div class="action-form">
                 <h3>Find Student to Update</h3>
@@ -120,7 +116,6 @@
             </div>
         {% endif %}
         
-        <!-- Update Student Form -->
         {% if action == 'update_student' and student %}
             <div class="action-form">
                 <h3>Update Student</h3>
@@ -147,7 +142,6 @@
             </div>
         {% endif %}
         
-        <!-- Delete Student Form -->
         {% if action == 'delete_student' %}
             <div class="action-form">
                 <h3>Delete Student</h3>
