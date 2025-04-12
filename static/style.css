@@ -72,6 +72,10 @@ header h1 {
     background-color: rgb(191, 221, 247);
 }
 
+.footer h2 {    
+    font-size: 1.5em;
+}
+
 .flash-messages {
     margin-bottom: 20px;
 }
@@ -97,6 +101,9 @@ header h1 {
 .action-form {
     max-width: 600px;
     margin: 0 auto;
+}
+.action-form h3{
+    font-size: 1.5em;;
 }
 
 .form-group {
