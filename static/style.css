@@ -1,0 +1,97 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid #3498db;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(209, 228, 245);
+    font-style: bold;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+
+.intro {
+    width: 400px;
+    margin: 0;
+    padding: 5px;
+    border: 2px solid #161718;
+    border-radius: 5px;
+    background-color: rgb(191, 221, 247);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.intro p1 {
+    font-size: 1.5em;
+    margin: 2%;
+    display: block;
+}
+
+.intro h2{
+    font-size: 1.8em;
+    margin: 2%;
+    display: block;
+}
+
+.container {
+    flex: 1;
+    min-width: 300px;
+    padding: 5px;
+    border: 2px solid #161718;
+    border-radius: 5px;
+    background-color: rgb(191, 221, 247);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container p {
+    font-size: 1.5em;
+    margin: 2%;
+    display: block;
+}
+
+.container h2{
+    font-size: 1.8em;
+    margin: 2%;
+    display: block;
+}
+
+.container ul {
+    font-size: 1.2em;
+    margin: 2%;
+    display: block;
+    color:black
+}
+
+.container li {
+    font-size: 1.2em;
+    font-weight: normal;
+    color: black;
+}
+body{
+    background:rgb(185, 211, 216)
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 05px;
+    border: 2px solid #161718;
+    border-radius: 5px;
+    background-color: rgb(191, 221, 247);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    min-height: 150px;
+}
+
+.footer h2{
+    font-size: 1.8em;
+    margin: 1%;
+    display: block;
+}
