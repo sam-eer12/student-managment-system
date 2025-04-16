@@ -14,6 +14,7 @@ def create_connection():
             database='project'
         )
         return connection
+
     except Error as e:
         print(f"Error connecting to MySQL: {e}")
         return None
