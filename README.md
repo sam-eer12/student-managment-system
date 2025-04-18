@@ -1,4 +1,4 @@
 # trial-project
-college project in Flak and MySQL
+college project in Flask and MySQL
 
 Student managment system using flask and mysql 
